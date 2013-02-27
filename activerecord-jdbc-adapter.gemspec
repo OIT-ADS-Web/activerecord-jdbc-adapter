@@ -4,7 +4,7 @@ require 'arjdbc/version'
 
 Gem::Specification.new do |s|
   s.name        = "activerecord-jdbc-adapter"
-  s.version     = ArJdbc::VERSION
+  s.version     = ArJdbc::Version::VERSION 
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Nick Sieger, Ola Bini and JRuby contributors"]
   s.email       = %q{nick@nicksieger.com, ola.bini@gmail.com}
